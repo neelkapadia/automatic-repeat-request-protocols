@@ -45,7 +45,7 @@ def server_receiver():
     port = int(sys.argv[1])
     file_name = sys.argv[2]
     probability = float(sys.argv[3])
-    client_port = 4443
+    client_port = 4445
 
     print("Server's port - " + str(port))
     print("filename - " + file_name)
