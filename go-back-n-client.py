@@ -177,7 +177,7 @@ def main():
     global data_to_send
     global total_packets
     Client_IP = ''
-    Client_Port = 4443
+    Client_Port = 4445
     socket_client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     socket_client.bind((Client_IP,Client_Port))
     FILE = open(file,'rb')
